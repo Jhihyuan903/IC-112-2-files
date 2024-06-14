@@ -1,0 +1,12 @@
+v=float(input("please input the velocity:"))#the velocity of ship 
+c=299792458#the velocity of light
+r=(1-(v/c)**2)**(-1/2)
+d1=4.3/r#trips to Alpha Centauri
+d2=6.0/r#trips to Barnard’s Star
+d3=309/r#trips to Betelgeuse (in the Milky Way)
+d4=2000000/r#trips to Andromeda Galaxy (closest galaxy)
+print("Percentage of light speed = {}".format(v/c))
+print("Travel time to Alpha Centauri = {}".format(d1))
+print("Travel time to Barnard’s Star = {}".format(d2))
+print("Travel time to Betelgeuse (in the Milky Way) = {}".format(d3))
+print("Travel time to Andromeda Galaxy (closest galaxy) = {}".format(d4))
